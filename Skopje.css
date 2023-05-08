@@ -1,0 +1,294 @@
+
+*{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+#naslov{
+    position: absolute;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 40px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 166, 0);
+    text-shadow: 1px 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#naslov1{
+    position: absolute;
+    text-align: center;
+    padding-top: 30%;
+    font-size: 40px;
+    top: 1450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 166, 0);
+    text-shadow: 1px 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+} 
+
+#lista{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: green;
+}
+.item{
+    list-style: none;
+    margin: 0px 5px;
+}
+
+
+.column1 {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column2 {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column3 {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  /* Style the links inside the navigation bar */
+#header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+#header a:hover {
+    background-color: #ddd;
+    color: black;
+
+  }
+#header{
+    background-color: rgb(55, 185, 218);
+    overflow: hidden;
+}
+
+#square img{
+  width:200px;
+  height: 250px; 
+  border-radius: 8px;
+}
+
+#kozjak img{
+    width:200px;
+    height: 230px;
+    border-radius: 8px; 
+}
+#church img{
+    width:200px;
+    height: 240px;
+    border-radius: 8px; 
+}
+
+#church p{
+    width:350px;
+
+}
+#kozjak p{
+    width:350px;
+    
+}
+
+#bazzar img{
+    width:250px;
+    height: 280px;
+    border-radius: 8px;
+  }
+
+  #bazzar p{
+    width:400px;
+  }
+
+  #fortress img{
+    width: 250px;
+    height: 280px;
+    border-radius: 8px;
+     
+  }
+  #fortress p{
+    width: 300px;
+    
+  }
+
+  #museum img{
+    width: 120px;
+    height: 250px; 
+    border-radius: 8px;
+  }
+
+
+  #museum p{
+    width: 300px;
+    border-radius: 8px;
+    
+  }
+  #vodno img{
+    width:200px;
+    height: 230px; 
+    border-radius: 8px;
+  }
+  #vodno p{
+    width: 450px;
+    
+  }
+
+  #skupi img{
+    width:200px;
+    height: 220px;
+    border-radius: 8px; 
+  }
+  #skupi p{
+    width: 370px;
+    
+  }
+
+  #matka img{
+    width:200px;
+    height: 250px; 
+    border-radius: 8px;
+  }
+
+  #matka p{
+    width: 350px;
+    
+  }
+#square p{
+   width: 335px;
+   
+}
+
+#square h4{
+    color: rgb(255, 166, 0);
+}
+
+#vodno h4{
+    color: rgb(255, 166, 0);
+}
+
+#skupi h4{
+    color: rgb(255, 166, 0);
+}
+
+#matka h4{
+    color: rgb(255, 166, 0);
+}
+
+#fortress h4{
+    color: rgb(255, 166, 0);
+}
+
+#bazzar h4{
+    color: rgb(255, 166, 0);
+}
+
+#museum h4{
+    color: rgb(255, 166, 0);
+}
+
+#kozjak h4{
+    color: rgb(255, 166, 0);
+}
+
+#church h4{
+    color: rgb(255, 166, 0);
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+#body h1{
+    position: absolute;
+   text-align: center;
+   padding-top: 300px;
+   font-size: 60px;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+   
+}
+
+#body h3{
+    position: absolute;
+    text-align: center;
+    font-size:30px;
+    padding:0;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: green;
+}
+ul li{
+    list-style: none;
+    margin: 0px 5px;
+}
+
+ul li a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+#see{
+    align-items: center;
+margin-left: 120px;
+    padding-top: 10%;
+}
+#Do{
+    align-items: center;
+    margin-left: 120px;
+    padding-top: 10%;
+    font-size: 10px;
+
+}
